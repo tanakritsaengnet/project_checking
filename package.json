@@ -19,11 +19,10 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
     "sass": "^1.35.2",
-    "webpack": "^4.42.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack -p",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -44,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.7.2"
   }
 }
